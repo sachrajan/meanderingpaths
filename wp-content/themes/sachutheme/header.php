@@ -38,7 +38,7 @@
       			</button>
       			<div class="collapse navbar-collapse" id="myNavbar">
 	    			<ul class="nav navbar-nav">
-				      	<li><a href="/wordpress/"> <i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+				      	<li><a href="/wordpress"> <i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
 				      	<li><a href="/wordpress/fashion"> <i class="fa fa-shopping-bag" aria-hidden="true"></i> Fashion</a></li>
 				      	<li><a href="/wordpress/beauty"> <i class="fa fa-diamond" aria-hidden="true"></i> Beauty</a></li>
 	    				<!-- *GD<li class="dropdown"> 
