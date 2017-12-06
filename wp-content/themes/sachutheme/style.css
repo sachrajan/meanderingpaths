@@ -1,0 +1,764 @@
+
+/*
+Theme Name: GooglyPuffs
+Theme URI: http://www.meanderingpaths.com;
+Description: Lifestyle Blog
+Version: 1.0
+Author: Saraswathi Rajasekharan
+Author URI: http://www.meanderingpaths.com
+License: NOT TO BE REPRODUCED, EDITED, OR USED AS A BASE FOR ANY OTHER DOMAIN.
+Text Domain: GooglyPuffs
+*/
+
+body {
+  position: relative;
+  z-index: 1;
+}
+
+body:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+p{
+  font-size:19px;
+  font-family:Neuton-Regular;
+  color:#2f4f4f;
+}
+
+p.signup{
+  padding:5px;
+}
+
+p.center-align{
+  text-align: center;
+}
+ol{
+  font-size:19px;
+  font-family:Neuton-Regular;
+}
+
+li{
+  font-size:19px;
+  font-family:Neuton-Regular;
+  color:rgb(47, 79, 79);
+}
+
+li<a{
+  font-family: Sacramento-Regular;
+  min-height:55px;
+}
+
+
+h3{
+  color:#3a6766;
+  font-family: GreatVibes-Regular;
+  font-size: 35px!important;
+}
+
+h2{
+  color:white;
+  font-family: GreatVibes-Regular;
+  font-size: 35px;
+  margin:5px 0px;
+  padding:5px 0px;
+}
+
+h1.page-heading{
+  color: #88c69c;
+  font-family: GreatVibes-Regular;
+  font-size: 60px;
+  margin: 10px 0px;
+  padding: 5px 0px;
+  text-align: center;
+  border-bottom: 6px double;
+}
+}
+
+h4{
+  font-family:Lustria-Regular;
+}
+
+h4.signup{
+  font-family: GreatVibes-Regular;
+  color: white;
+  text-align: center;
+  background-color: #88c69c;
+  font-size: 35px;
+  border-width: 1px;
+  border-color:whitesmoke;
+  border-style: solid;
+}
+
+h4.signup-sidebar{
+  font-family: GreatVibes-Regular;
+  color: white;
+  text-align: center;
+  background-color: #88c69c;
+  font-size: 35px;
+  border-width: 1px;
+  border-color:whitesmoke;
+  border-style: solid;
+}
+
+h1>.header-text{
+  color:#FFDEAD;
+}
+
+#subheading {
+  text-decoration: underline !important;
+  font-family: GreatVibes-Regular !important;
+  font-size:25px;
+  color: rgb(47, 79, 79);
+}
+
+p.disclaimer{
+  font-size:14px;
+}
+
+/* FONT STYLING
+b. Header */
+
+.header-text{
+  font-family: AlexBrush-Regular;
+  font-size: 90px;
+  padding:20px!important;
+  text-align:center;
+  background: linear-gradient(330deg, #390801 10%, #ac1406 25%, #f3ccc2 50%, #738b2a 75%, #457f8d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.navbar-default .navbar-nav>li>a{
+  color:#3a6766;
+  font-family: Sacramento-Regular;
+  font-size:22px;
+}
+
+.fa-search{
+  margin-left: -20px;
+  margin-top: 10px;
+  position:absolute;
+  color:#88c69c;
+}
+
+span.entry-date{
+  font-size:12px;
+  text-align: center;
+  color: rgb(136,198,156);
+}
+
+.feature-list-india, .feature-list-canada, .feature-list-travel{
+  color:#b12737;
+  font-family: Sacramento-Regular;
+  font-size: 22px;
+}
+
+
+
+/* Background - Header */
+.site-header{
+  background-color:#fff;
+}
+.jumbotron{
+	background-color: #fff;
+	height:200px;
+	padding:0px!important;
+	margin:0px!important;
+}
+
+.header-bg {
+  position: relative;
+  z-index: 1;
+}
+
+.header-bg:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-image: url(1.jpg);
+  background-size:contain;
+
+}
+
+/* Navbar Defaults; Hover effects*/
+.navbar-default {
+	background-color: white;
+  margin:10px 0px 0px 0px;
+  border-color:#f3ba00;
+  border-top-left-radius: 10px;
+  border-top-right-radius:10px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+@media screen and (max-width: 768px) {
+    .site-header {
+      position: relative;
+    }
+    .navbar {
+      /position:absolute;*/
+      top: 0;
+      z-index: 2;
+      width: 100%;
+      margin:0;
+    }
+    .jumbotron{
+      height:30%;
+    }
+    .header-bg:before {
+    background-size:contain;
+    }
+    .navbar-default {
+      background-color: white;
+      margin: 0px 0px 0px 0px;
+      border: none;
+    }
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color:white;
+	text-decoration:none;
+  background-color: #88c69c;
+  overflow: hidden;
+  border-bottom: 5px solid #5384a2;
+}
+
+.navbar-default .navbar-nav>li>a:focus{
+  color:#fff;
+  text-decoration:none;
+  background-color: #f3ba00;
+  overflow: hidden;
+  border-bottom: 5px solid #f69075;
+}
+
+.navbar-toggle {
+  float:left;
+}
+
+
+/* Navigation Search */
+
+#nav-search{
+  position:relative;
+  border-color:#3a6766; 
+}
+
+@media (max-width: 768px) {
+  .fa-search {
+    margin-top: 9px;
+    position:absolute;
+    margin-left:-23px;
+  }
+  #nav-search {
+  width:35px!important;
+  -webkit-transition: width 1s ease-in-out !important;
+  transition: width 1s ease-in-out!important;
+  display:inline;
+  -webkit-input-placeholder: color:transparent;
+  -moz-placeholder: color:transparent; 
+  }
+  #nav-search:focus{
+  width:250px!important;
+  border-color:#b12737;
+  -webkit-box-shadow: inset 0 1px 1px #88c69c,0 0 8px #88c69c;
+  box-shadow: inset 0 1px 1px #88c69c,0 0 8px #88c69c;
+  }
+}
+
+#nav-search {
+  width:250px;
+  -webkit-transition: width 1s ease-in-out !important;
+    transition: width 1s ease-in-out!important;
+    display:inline;
+}
+
+#nav-search:focus{
+  width:300px;
+  border-color:transparent;
+  -webkit-box-shadow: inset 0 1px 1px #88c69c,0 0 8px #88c69c;
+  box-shadow: inset 0 1px 1px #88c69c,0 0 8px #88c69c;
+}
+/* Dropdown Hover Effects */
+.cat-full{
+  width:1200px;
+  height:230px;
+  left:-40em;
+}
+
+.feature-list-top{
+  border-style: dashed;
+  border-bottom-style: none;
+  border-width: 0.5px;
+  padding: 2px;
+  text-decoration: none;
+  border-color: #88c69c;
+}
+
+.feature-list-bottom{
+  border-style: dashed;
+  border-width: 0.5px;
+  padding: 2px;
+  text-decoration: none;
+  border-color: #88c69c;
+}
+
+.menu-travel, .menu-canada{
+  display:none;
+}
+
+.menu-wrap{
+  padding:25px;
+  margin:10px;
+}
+
+.dropdown-menu{
+  min-width: 100%;
+  min-height: 100%;
+  text-align:center;
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.feature-post{
+  list-style-type: none;
+  padding-bottom:4px;
+}
+
+.dropdown-menu a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f3ba00;
+  color:white;
+  border-bottom:5px solid #f69075;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Images */
+
+.post-thumb{
+  height: 0;
+  padding-top: 75%;
+  max-width: 100%;
+  background-position: 50% 50% !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	position: relative;
+}
+
+.post-image {
+  height:auto;
+	background-repeat: no-repeat;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/*Carousel */
+
+.post-title{
+  color:#3a6766;
+  font-family: GreatVibes-Regular;
+  font-size: 35px;
+}
+
+.carousel-controller{
+	width:100%;
+	height:10em;
+	background-color:white;
+	margin:160px 0px 0px 0px;
+}
+
+.tag {
+  padding: 7px 12px;
+  background-color: #f69075;
+  color: white;
+  text-decoration: none;
+  border-style: double;
+  border: 2px double #f3ba00;
+}
+
+.link{
+  font-size:22px;
+  font-family: Sacramento-Regular;
+}
+.col-md-3>img{
+	width: 120px;
+  height: 125px;
+  background-repeat: no-repeat;
+  margin: 8px 0px;
+}
+
+.carousel{
+  padding:10px;
+}
+
+.carousel-inner > .col-md-3 > img,
+.carousel-inner > .col-md-3> a > img {
+  width: 120px;
+  height: 125px;
+  background-repeat: no-repeat;
+  margin: 8px 0px;
+}
+
+.carousel-inner{
+  width:100%;
+}
+
+.carousel-content1{
+	margin: 40px 0px;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.post-image2{
+  display:none;
+}
+.post-image3{
+  display:none;
+}
+.post-image4{
+  display:none;
+}
+
+.carousel-content2{
+  display:none;
+  margin: 40px 0px;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.carousel-content3{
+  display:none;
+  margin: 40px 0px;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.carousel-content4{
+  display:none;
+  margin: 40px 0px;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.latest-preview{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  height:70px;
+}
+
+
+}
+.input-group{
+	margin:0px 20px;
+	width:100%;
+}
+
+img.thumb{
+  height:250px;
+  width:100%;
+}
+
+img.thumb-panel{
+  height:150px;
+  border-radius:200px;
+  float:left;
+  margin:5px;
+  width:150px;
+}
+
+.about-panel-side{
+  background-color:#E6F0F2;
+  padding: 10px;
+ outline-style: double;
+  outline-color:rgb(243,186,0);
+  outline-width: 3px;
+}
+
+.about-panel{
+  background-color:#E6F0F2;
+  padding: 10px;
+ outline-style: dashed;
+  outline-color:#f69075;
+  outline-width: 2px;
+  margin-left:10px;
+}
+
+
+.popular{
+  padding:25px 0px;
+}
+.popular-posts{
+
+}
+.post-prev{
+  outline-style: dashed;
+  outline-color:#f69075;
+  outline-width: 1px;
+  background-color:#fff;
+  padding:8px;
+  text-align: center;
+  display:none;
+}
+
+.category-post-preview{
+ font-size:19px;
+  font-family:Neuton-Regular;
+  color:#2f4f4f;
+
+}
+
+#thumb1:hover~#post-prev1{
+    display: block;
+}
+
+p.post-prev{
+    z-index:-1;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+
+}
+
+p.post-prev:hover {
+  height:150px;
+}
+
+.thumb{
+  padding:10px;
+}
+.thumb:hover{
+  display: ;
+
+}
+
+.section-homepage{
+  margin:10px 20px!important
+}
+
+.panel-text-image{
+  float:right;
+  margin:2px;
+}
+
+.social-media{
+  min-height: 22em;
+  margin-top: 2em;
+  padding: 20px 0px;
+  border-top:5px double rgb(243,186,0);
+}
+
+.instafeed{
+  width:100%;
+  height:auto;
+  padding:5px;
+}
+
+.footer{
+  padding:20px 10px;
+  border:1px dashed rgb(243,186,0);
+  background-color:#fff;
+}
+
+.blog-post-title{
+  font-family:GreatVibes-Regular;
+  color:#3a6766;
+  font-size: 40px;
+  margin:50px 30px 10px 30px;
+}
+
+.post-section{
+
+}
+
+.blog-post-image{
+  border-radius:2px;
+  padding:10px;
+  margin:5px;
+}
+
+.align-left{
+  float:left;
+}
+
+.align-right{
+  float:right;
+}
+
+.align-center{
+  margin:auto !important;
+}
+
+.figure-caption{
+margin:10px;
+text-align:center;
+}
+
+.sidebar{
+  width:25%;
+  float:right;
+}
+
+.comments-submit{
+  font-size:24px;
+  font-family:GreatVibes-Regular;
+  color:#2f4f4f;
+  font-weight:400;
+}
+
+.comment-submit{
+  font-size:24px;
+  font-family:GreatVibes-Regular;
+  color:white;
+  border-style: solid ;
+  border-width: 1px;
+  padding: 5px 9px 2px;
+  background-color:#88c69c;
+  border-bottom: 5px solid #5384a2
+}
+.comment{
+  background-color: whitesmoke;
+}
+
+.comment:focus{
+  border-color:#88c69c;
+}
+
+.signup-container{
+  border-color:rgb(243,186,0);
+  border-width: 3px;
+  border-style:double;
+  padding:0 10 0 10;
+  margin-top:30px;
+}
+
+.email-signup:focus{
+  border-color:#88c69c ;
+}
+
+.signup-now{
+  margin:10 0 0 0;
+  font-size:24px;
+  font-family:GreatVibes-Regular;
+  color:white;
+  border-style: solid ;
+  border-width: 1px;
+  padding: 5px 40px;
+  background-color:#88c69c;
+  border-bottom: 5px solid #5384a2;
+}
+
+.signup{
+  font-family: Neuton-Regular;
+}
+.signup:focus{
+  border-color:#5384a2;
+}
+
+.signup-bottom{
+  width: 100%;
+  height: 38px;
+  background-color: #88c69c;
+  border: 1px;
+  margin: 10 0 10 0;
+}
+
+@media screen and (min-width: 768px) {
+  .signup-now{
+    margin:10 0 0 0;
+    font-size:24px;
+    font-family:GreatVibes-Regular;
+    color:white;
+    border-style: solid ;
+    border-width: 1px;
+    padding: 5px 40px;
+    background-color:#88c69c;
+    border-bottom: 5px solid #5384a2;
+    }
+  .email-signup{
+    padding:75 0 0 0;
+    right:9px;
+  }
+}
+
+.signup-container-sidebar{
+  border-color:rgb(243,186,0);
+  border-width: 3px;
+  border-style:double;
+  padding:0 10 0 10;
+  top:20px;
+}
+
+.email-signup-sidebar:focus{
+  border-color:#88c69c ;
+}
+
+.signup-now-sidebar{
+  margin:10 0 0 0;
+  font-size:24px;
+  font-family:GreatVibes-Regular;
+  color:white;
+  border-style: solid ;
+  border-width: 1px;
+  padding: 5px 40px;
+  background-color:#88c69c;
+  border-bottom: 5px solid #5384a2;
+}
+
+.signup-sidebar{
+  font-family: Neuton-Regular;
+}
+.signup-sidebar:focus{
+  border-color:#5384a2;
+}
+
+.signup-bottom-sidebar{
+  width: 100%;
+  height: 38px;
+  background-color: #88c69c;
+  border: 1px;
+  margin: 0 0 10 0;
+}
+
+@media screen and (min-width: 768px) {
+  .signup-now-sidebar{
+    margin:10 0 0 0;
+    font-size:24px;
+    font-family:GreatVibes-Regular;
+    color:white;
+    border-style: solid ;
+    border-width: 1px;
+    padding: 5px;
+    background-color:#88c69c;
+    border-bottom: 5px solid #5384a2;
+    width:100%;
+    }
+
+}
