@@ -3,7 +3,7 @@ Contributors: gVectors Team
 Tags: comment, comments, ajax comments, custom comment form, custom comment field
 Requires at least: 4.4
 Tested up to: 4.9
-Stable tag: 4.1.1
+Stable tag: 4.1.2
 Requires PHP: 5.4 and higher
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -35,9 +35,8 @@ Integration with AntiSpam plugins
 
 = Comments - wpDiscuz "Coming soon" Features: =
 
-* | New Option : Commenting can be disabled depending user roles
-* | New Option : "Load all comments" on page load
-* | New Option : Load only parent(root) comments
+* | New Feature : Caching gravatar images
+* | New Feature : Sticky comments
 
 = Comments - wpDiscuz Features: =
 
@@ -76,6 +75,9 @@ Integration with AntiSpam plugins
 * | Option to overwrite comment template and style
 * | Highlighting new comments since last visit with different background
 * | Notification to comment author when comment was approved
+* | Display only parent comments with view replies (x) button
+* | Control commenters by roles (allow/restrict access to website comment area)
+* | Option to load all comments on first page load
 
 
 = Add-ons =
@@ -95,6 +97,7 @@ Integration with AntiSpam plugins
 * | [wpDiscuz - User & Comment Mentioning](https://gvectors.com/product/wpdiscuz-user-comment-mentioning/)
 * | [wpDiscuz - Advanced Likers](https://gvectors.com/product/wpdiscuz-advanced-likers/)
 * | [wpDiscuz - Comments Censure](https://gvectors.com/product/comments-censure-pro/)
+* | [wpDiscuz - Online Users](https://gvectors.com/product/wpdiscuz-online-users/)
 
 
 This comment system is also available for WooCommerce, Plugin name is WooDiscuz – WooCommerce Comments:
@@ -169,9 +172,12 @@ Nothing will be lost!  **Comments - wpDiscuz** will show all old comments.
 
 == Changelog ==
 
-= Comments - wpDiscuz v4.1.1 =
+= Comments - wpDiscuz v4.1.2 =
 
-* Added : Option to enable first comments loading before scroll position is on comment box
+* Added : Display only parent comments with view replies (x) button. This increases page loading speed and keeps pages light. If visitor wants to read replies he/she just clicks on [view replies (x) ] button located on each parent comment. 
+* Added : Now you can control commenters by roles. You can allow/restrict access to website comment area to certain user roles.
+* Added : New option "Load all comments" on first page load
+* Fixed Bug : Incorrect phrases
 
 IMPORTANT:
 
@@ -179,6 +185,10 @@ IMPORTANT:
 - If you have a Cache Plugin, please delete all caches after wpDiscuz update.
 - If you use CDN and found some issue please purge it.
 - If your server PHP version is lower than 5.4, [please change it to hogher](https://wordpress.org/support/topic/wpdiscuz-4-requires-php-5-4-and-higher/)
+
+= Comments - wpDiscuz v4.1.1 =
+
+* Added : Option to enable first comments loading before scroll position is on comment box
 
 = Comments - wpDiscuz v4.1.0 =
 

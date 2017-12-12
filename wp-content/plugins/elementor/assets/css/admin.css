@@ -1,4 +1,4 @@
-/*! elementor - v1.8.5 - 19-11-2017 */
+/*! elementor - v1.8.9 - 06-12-2017 */
 .dialog-widget {
   position: fixed;
   height: 100%;
@@ -11,7 +11,8 @@
 .dialog-widget-content {
   background-color: #fff;
   position: absolute;
-  border-radius: 3px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
   -webkit-box-shadow: 2px 8px 23px 3px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 8px 23px 3px rgba(0, 0, 0, 0.2);
   overflow: hidden; }
@@ -179,7 +180,8 @@ body.elementor-editor-inactive #elementor-editor {
   display: inline-block;
   line-height: 1;
   border: 1px solid;
-  border-radius: 3px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
   outline: none;
   cursor: pointer; }
   .elementor-button .eicon-elementor {
@@ -464,7 +466,8 @@ body.elementor-editor-inactive #elementor-editor {
 
 #elementor-deactivate-feedback-modal .dialog-submit {
   background-color: #9b0a46;
-  border-radius: 3px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
   color: #fff;
   line-height: 1;
   padding: 12px 20px;

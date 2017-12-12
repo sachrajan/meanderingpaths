@@ -1,6 +1,8 @@
 
-<section class="social-media">
+<?php wp_footer(); ?>
+	<!--<section class="social-media">
 		<div class="container">
+			
 			<div class="col-md-6">
 				<h3 class="text-center"> My Latest Pins</h3>
 					<div class="row">
@@ -80,7 +82,7 @@
 				</div>
 		</div>
 	</div>
-	</section>
+	</section><!-->
 		<footer class="footer">
 			<div class="container text-center">
 				<p>Copyright© 2016 www.meanderingpaths.com ALL RIGHTS RESERVED</p>

@@ -5,6 +5,7 @@
 		<meta name="keywords" content="finance, home, love, life, family, india, indian, fashion, beauty">
 		<meta name="author" content="Saraswathi Arun">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+		<meta name="p:domain_verify" content="06a0ec460635471e9812ffd5fe8a564f"/>
 		
 		<title><?php bloginfo('title'); ?></title>
 
@@ -12,9 +13,11 @@
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
 
-		<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/style.css">
-		<script src="<?php echo get_stylesheet_directory_uri() ?>/script.js"></script>
+		<link rel="stylesheet" type="text/css" media="all" href="<?php echo ($_SERVER[HTTP_HOST] == 'localhost:8888') ? get_template_directory_uri() . '/style.css' : 'https://s3.us-east-2.amazonaws.com/meanderingpaths/css/style.css'; ?>">
+		<!--link rel="stylesheet" type="text/css" media="all" href="https://s3.us-east-2.amazonaws.com/meanderingpaths/css/style.css"-->
+		<script src="<?php echo ($_SERVER[HTTP_HOST] == 'localhost:8888') ? get_stylesheet_directory_uri() . '/script.js' : 'https://s3.us-east-2.amazonaws.com/meanderingpaths/javascript/script.js'; ?>"></script>
 		<script>
 			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -39,8 +42,8 @@
       			<div class="collapse navbar-collapse" id="myNavbar">
 	    			<ul class="nav navbar-nav">
 				      	<li><a href="/wordpress"> <i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-				      	<li><a href="/wordpress/fashion"> <i class="fa fa-shopping-bag" aria-hidden="true"></i> Fashion</a></li>
-				      	<li><a href="/wordpress/beauty"> <i class="fa fa-diamond" aria-hidden="true"></i> Beauty</a></li>
+				      	<li><a href="/wordpress/lifestyle"> <i class="fa fa-play-circle" aria-hidden="true"></i> Lifestyle</a></li>
+				      	<li><a href="/wordpress/travel/"> <i class="fa fa-plane" aria-hidden="true"></i> Travel</a></li>
 	    				<!-- *GD<li class="dropdown"> 
 	    					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 	    						<i class="fa fa-map-signs" aria-hidden="true"></i> Lifestyle<span class="caret"></span>
@@ -115,7 +118,7 @@
 								</div>
 	      					</ul>
 	    				</li> -->
-	      				<li><a href="/wordpress/about-me"><i class="fa fa-user-secret" aria-hidden="true"></i>About Me</a></li>
+	      				<li><a href="/wordpress/about-me"><i class="fa fa-user-secret" aria-hidden="true"></i> About Me</a></li>
 	    			</ul>
   				</div>
   			</div>

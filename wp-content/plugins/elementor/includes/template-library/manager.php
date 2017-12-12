@@ -239,9 +239,7 @@ class Manager {
 			return new \WP_Error( 'template_error', 'Template source not found.' );
 		}
 
-		$source->delete_template( $args['template_id'] );
-
-		return true;
+		return $source->delete_template( $args['template_id'] );
 	}
 
 	/**
@@ -323,9 +321,7 @@ class Manager {
 	 * @access private
 	*/
 	private function handle_ajax_request( $ajax_request ) {
-		if ( ! Plugin::$instance->editor->verify_request_nonce() ) {
-			wp_send_json_error( new \WP_Error( 'token_expired' ) );
-		}
+		Plugin::$instance->editor->verify_ajax_nonce();
 
 		$result = call_user_func( [ $this, $ajax_request ], $_REQUEST );
 

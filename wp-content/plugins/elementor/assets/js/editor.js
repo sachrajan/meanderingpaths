@@ -1,4 +1,4 @@
-/*! elementor - v1.8.5 - 19-11-2017 */
+/*! elementor - v1.8.9 - 06-12-2017 */
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 var HandleAddDuplicateBehavior;
 
@@ -1553,6 +1553,7 @@ App = Marionette.Application.extend( {
 	// Exporting modules that can be used externally
 	modules: {
 		element: require( 'elementor-models/element' ),
+		Module: require( 'elementor-utils/module' ),
 		WidgetView: require( 'elementor-views/widget' ),
 		panel: {
 			Menu: require( 'elementor-panel/pages/menu/menu' )
@@ -2285,7 +2286,7 @@ App = Marionette.Application.extend( {
 
 module.exports = ( window.elementor = new App() ).start();
 
-},{"elementor-editor-utils/ajax":63,"elementor-editor-utils/conditions":64,"elementor-editor-utils/debug":66,"elementor-editor-utils/heartbeat":67,"elementor-editor-utils/helpers":68,"elementor-editor-utils/images-manager":69,"elementor-editor-utils/presets-factory":72,"elementor-editor-utils/schemes":73,"elementor-editor/settings/settings":62,"elementor-layouts/panel/panel":52,"elementor-models/element":55,"elementor-panel/pages/elements/views/elements":39,"elementor-panel/pages/menu/menu":42,"elementor-templates/manager":9,"elementor-utils/hooks":114,"elementor-utils/hot-keys":115,"elementor-views/controls/base":86,"elementor-views/controls/base-multiple":84,"elementor-views/controls/box-shadow":87,"elementor-views/controls/choose":88,"elementor-views/controls/code":89,"elementor-views/controls/color":90,"elementor-views/controls/date-time":91,"elementor-views/controls/dimensions":92,"elementor-views/controls/font":93,"elementor-views/controls/gallery":94,"elementor-views/controls/icon":95,"elementor-views/controls/image-dimensions":96,"elementor-views/controls/media":97,"elementor-views/controls/number":98,"elementor-views/controls/order":99,"elementor-views/controls/repeater":101,"elementor-views/controls/section":102,"elementor-views/controls/select2":103,"elementor-views/controls/slider":104,"elementor-views/controls/structure":105,"elementor-views/controls/switcher":106,"elementor-views/controls/tab":107,"elementor-views/controls/wp_widget":108,"elementor-views/controls/wysiwyg":109,"elementor-views/preview":111,"elementor-views/widget":113,"modules/history/assets/js/module":125}],28:[function(require,module,exports){
+},{"elementor-editor-utils/ajax":63,"elementor-editor-utils/conditions":64,"elementor-editor-utils/debug":66,"elementor-editor-utils/heartbeat":67,"elementor-editor-utils/helpers":68,"elementor-editor-utils/images-manager":69,"elementor-editor-utils/presets-factory":72,"elementor-editor-utils/schemes":73,"elementor-editor/settings/settings":62,"elementor-layouts/panel/panel":52,"elementor-models/element":55,"elementor-panel/pages/elements/views/elements":39,"elementor-panel/pages/menu/menu":42,"elementor-templates/manager":9,"elementor-utils/hooks":114,"elementor-utils/hot-keys":115,"elementor-utils/module":116,"elementor-views/controls/base":86,"elementor-views/controls/base-multiple":84,"elementor-views/controls/box-shadow":87,"elementor-views/controls/choose":88,"elementor-views/controls/code":89,"elementor-views/controls/color":90,"elementor-views/controls/date-time":91,"elementor-views/controls/dimensions":92,"elementor-views/controls/font":93,"elementor-views/controls/gallery":94,"elementor-views/controls/icon":95,"elementor-views/controls/image-dimensions":96,"elementor-views/controls/media":97,"elementor-views/controls/number":98,"elementor-views/controls/order":99,"elementor-views/controls/repeater":101,"elementor-views/controls/section":102,"elementor-views/controls/select2":103,"elementor-views/controls/slider":104,"elementor-views/controls/structure":105,"elementor-views/controls/switcher":106,"elementor-views/controls/tab":107,"elementor-views/controls/wp_widget":108,"elementor-views/controls/wysiwyg":109,"elementor-views/preview":111,"elementor-views/widget":113,"modules/history/assets/js/module":125}],28:[function(require,module,exports){
 var EditModeItemView;
 
 EditModeItemView = Marionette.ItemView.extend( {
@@ -7081,10 +7082,12 @@ BaseElementView = BaseContainer.extend( {
 		self.runReadyTrigger();
 
 		if ( self.toggleEditTools ) {
+			var triggerButton = self.ui.triggerButton;
+
 			self.ui.settingsList.hoverIntent( function() {
-				self.ui.triggerButton.addClass( 'elementor-active' );
+				triggerButton.addClass( 'elementor-active' );
 			}, function() {
-				self.ui.triggerButton.removeClass( 'elementor-active' );
+				triggerButton.removeClass( 'elementor-active' );
 			}, { timeout: 500 } );
 		}
 	},
@@ -7311,8 +7314,13 @@ ColumnView = BaseElementView.extend( {
 	},
 
 	isDroppingAllowed: function() {
-		var elementView = elementor.channels.panelElements.request( 'element:selected' ),
-			elType = elementView.model.get( 'elType' );
+		var elementView = elementor.channels.panelElements.request( 'element:selected' );
+
+		if ( ! elementView ) {
+			return false;
+		}
+
+		var elType = elementView.model.get( 'elType' );
 
 		if ( 'section' === elType ) {
 			return ! this.isInner();
@@ -9173,13 +9181,13 @@ ControlRepeaterItemView = ControlBaseItemView.extend( {
 
 	onSortStop: function( event, ui ) {
 		// Reload TinyMCE editors (if exist), it's a bug that TinyMCE content is missing after stop dragging
-		ui.item.find( '.elementor-wp-editor' ).each( function() {
-			var editor = tinymce.get( this.id ),
-				settings = editor.settings;
+		var sortedRowView = this.children.findByIndex( ui.item.index() ),
+			rowControls = sortedRowView.children;
 
-			settings.height = Backbone.$( editor.getContainer() ).height();
-			tinymce.execCommand( 'mceRemoveEditor', true, this.id );
-			tinymce.init( settings );
+		rowControls.each( function( control ) {
+			if ( 'wysiwyg' === control.model.get( 'type' ) ) {
+				control.render();
+			}
 		} );
 	},
 
