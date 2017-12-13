@@ -828,3 +828,49 @@ text-align:center;
   }
   }
 
+table#wp-calendar{
+  border: rgb(243,186,0);
+  border-style: double;
+  border-width: 3px;
+  font-size:20px;
+  color:#3a6766;
+  font-family: Neuton-Regular;
+}
+
+h2.widgettitle{
+  font-size:27px;
+  font-family:GreatVibes-Regular;
+  color:#3a6766;
+  margin:10 0 10 0;
+  padding:10 0 10 0;
+}
+
+caption {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  color: #3a6766;
+  font-family: Neuton-Regular;
+  }
+
+th{
+text-align: center;
+letter-spacing: 20px;
+}
+
+td, th {
+  padding: 1px;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin: 5px;
+  font-weight:100;
+  font-family: Neuton-Regular;
+}
+
+.tag-cloud-link{
+  font-size:15px!important;
+}
+

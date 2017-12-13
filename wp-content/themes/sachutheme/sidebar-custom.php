@@ -1,3 +1,4 @@
+<?php dynamic_sidebar('custom'); ?>
 <div class="sidebar-content">
 	<div class="col-md-12 col-sm-12 col-xs-12 about-panel-side">
 		<h3 class="text-center"> About Me</h3>
@@ -21,6 +22,5 @@
 					<div class="signup-bottom-sidebar">
 					</div> 
 			</div>
-
 	</div>
 </div>
