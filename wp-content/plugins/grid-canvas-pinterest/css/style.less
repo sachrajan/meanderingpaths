@@ -1,0 +1,328 @@
+@modal_title_height: 50px;
+@gen_image_height: 220px;
+
+#gc-app{
+	max-height: calc(~"100% - "@modal_title_height);
+	height: calc(~"100% - "@modal_title_height);
+	min-width: 700px;
+}
+
+.gc-modal-overlay{
+	width: 100%;
+	height: calc(~"100% - "@modal_title_height);
+	position: absolute;
+	top:@modal_title_height;
+	left:0;
+	background-color: rgba(49, 55, 93, 0.93);
+}
+
+.gc-modal-loading .gc-modal-message:before{
+	content: "";
+	background-image: url("../images/spin.gif");
+	background-repeat: no-repeat;
+	background-size: 25px;
+	width: 25px;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    margin: 1em 0;
+    margin-right: 15px;
+}
+.gc-modal-loading .gc-modal-message p{
+	line-height: 25px;
+}
+
+.gc-share-wrap{
+	margin-top: 75px;
+	position: relative;
+}
+
+.gc-overlay-status{
+	padding: 10px 37px 10px 15px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.gc-modal-loading  .gc-modal-message, .gc-overlay-status.gc-modal-error {
+	color: #DA4078;
+	border: 0; 
+	background: #fff;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.92),0 1px 3px rgba(0, 0, 0, 0.09);
+}
+
+.gc-modal-error {
+	color: #eb5c2c;
+    border: 1px solid #eb5c2c;
+    background: #fff9f7;
+}
+
+.gc-modal-message {
+	color: #eb5c2c;
+    border: 1px solid #eb5c2c;
+    background: #fff9f7;
+}
+
+
+.gc-modal {
+    z-index: 10000;
+	background: rgba(6, 8, 23, 0.8);
+	position: fixed;
+	width:100%;
+	height: 100%;
+	left:0;
+	top:0;
+}
+
+
+.gc-modal-content{
+	width: ~"calc(100% - 60px)";
+	height: ~"calc(100% - 90px)";
+	background: #fff;
+	margin:60px 30px 30px 30px;
+	position: relative;
+	overflow: auto;
+}
+
+.gc-close{
+	position: absolute;
+	right:20px;
+	top:14px;
+	cursor: pointer;
+	color: #fff;
+	width: 20px;
+	height:20px;
+	background: url("../app/images/cancel.png") no-repeat center;
+	background-size: contain;
+}
+
+.gc-overlay-close{
+	width: 20px;
+	height:20px;
+	background: url("../app/images/cancel.png") no-repeat center;
+	background-size: contain;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+.gc-overlay-close:hover{
+	opacity: 0.8;
+}
+
+.gc-create {
+    cursor: pointer;
+    height: @gen_image_height;
+    display: inline-block;
+    width: 180px;
+    background: #fcfcfc;
+    border: 2px dashed #e3e6f0;
+    border-color: #e3e6f0;
+    margin-right: 14px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
+    transition: border-color 0.1s ease-out;
+}
+
+.gc-create-plus{
+	position: absolute;
+	bottom: 50%;
+	left: 0;
+	width: 100%;
+	display: inline-block;
+}
+.gc-create-plus:after{
+	content: "+";
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 100px;
+	border:2px solid #e3e6f0;
+	color: #727d83;
+	background:#fff;
+	display: block;
+	width: 26px;
+	height: 26px;
+	line-height: 24px;
+	margin: auto;
+	transition: border-color 0.1s ease-out;
+
+}
+.gc-reate-text{
+	position: absolute;
+	top: 50%;
+	margin-top: 7px;
+	left: 0;
+	width: 100%;
+	display: inline-block;
+	color: #747f85;
+}
+
+.gc-create:hover{
+	border-color: #727d83;
+	background: #e3e6f0;
+
+}
+.gc-create:hover .gc-create-plus:after{
+	border-color: #727d83;
+	background: #fcfcff;
+}
+
+.gc-modal-header{
+	width:100%;
+	height:@modal_title_height;
+	background: #fff;
+	padding: 0 20px;
+	border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+}
+
+.gc-modal-logo{
+	width: 140px;
+	height: 34px;
+	margin-top: 7px;
+	background: url("../app/images/logo-app.png") no-repeat center;
+	background-size: contain;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+body.gc-modal-open{
+	overflow: hidden;
+}
+
+.gc-generated-image img {
+    height: @gen_image_height;
+    vertical-align: middle;
+}
+
+.gc-generated-image {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 14px;
+    margin-bottom: 14px;
+	position: relative;
+}
+
+.gc-image-overlay{
+	width: 100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	background: rgba(13, 16, 44, 0.8);
+	opacity: 0;
+	transition: opacity 0.2s ease-out;
+}
+
+.gc-share-btn, .gc-download{
+	color: #fff;
+	background-color: #137dcf;
+	border-radius: 5px;
+	width: 80px;
+	height: 36px;
+	line-height: 35px;
+	padding: 0 7px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	margin: 10px auto 10px auto;
+	cursor: pointer;
+	box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
+	text-transform: uppercase;
+	font-size: 11px;
+	transition: all 0.2s ease-out;
+}
+
+.gc-download{
+	background-color: #3ebd5d;
+	/*color: #08564a*/
+}
+
+.gc-download:hover{
+	color: #08564a;
+	opacity: 0.9;
+}
+.gc-share-btn:hover, .gc-share-opened .gc-share-btn{
+	color:#021627;
+	opacity: 0.9;
+}
+
+.gc-share-icon{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	margin-top: 5px;
+	float: left;
+}
+
+.gc-share-facebook{
+	background-color: #3B5998;
+	background-image: url("../app/images/facebook.png");
+}
+.gc-share-twitter{
+	background-color: #00aced;
+	background-image: url("../app/images/twitter.png");
+}
+.gc-share-pinterest{
+	background-color: #ca3737;
+}
+
+.gc-share-pinterest .gc-share-icon{
+	background-image: url("../app/images/pinterest-w.svg");
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+.gc-share-googlePlus{
+	background-color: #dd4b39;
+	background-image: url("../app/images/google.png");
+}
+
+.gc-generated-image:hover .gc-image-overlay{
+	opacity: 1;
+}
+.gc-share{
+	display: none;
+	background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    border: 5px solid #fff;
+    border-radius: 4px;
+    position: absolute;
+   	left: 50%;
+    width: 160px;
+    margin-left: -85px;
+}
+
+.gc-share:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 10px 10px ;
+    border-color: #fff rgba(0, 0, 0, 0);
+    display: block;
+    width: 0;
+    z-index: 1;
+    top: -15px;
+    left: 45%;
+}
+.gc-share-opened .gc-share{
+ display: block;
+}
+.gc-meta-logo{
+	width: 20px;
+	margin-right: 7px;
+	height: 24px;
+	display: inline-block;
+	background: url("../app/images/logo-single.png") no-repeat center;
+	background-size: contain;
+	vertical-align: middle;
+}

@@ -2,8 +2,27 @@
 	<section>
 		<div class="container content-section">
 			<div class="col-md-8 col-sm-8 post-section">
+				<div class="blog-post-title"> <?php echo get_post(get_the_ID())->post_title; ?> </div>
+				<?php the_date(); ?> <span> | <span>   <?php $author = get_the_author(); ?> <?php
+										//$posttags = get_the_tags();
+										//if ($posttags) {
+ 									  	//foreach($posttags as $tag) { 
+ 									  	//echo $tag; } 
+					if(is_active_sidebar('sharebar')){
+						dynamic_sidebar('sharebar');
+						}
+					?>
+					<br>
+					<br>
 				<?php echo get_post(get_the_ID())->post_content; ?>
 				<br> 
+				<br>
+				<?php
+					if(is_active_sidebar('sharebar')){
+						dynamic_sidebar('sharebar');
+						}
+					?>
+					<br>
 				<?php comments_template(); ?>
 				<div class="signup-container">
 					<h4 class="signup">Join my mailing list!</h4>
@@ -25,7 +44,11 @@
 			</div>
 				<div class="col-md-4 col-sm-4">
 					<?php get_sidebar ('custom'); ?>
-					<?php get_sidebar(); ?>
+					<?php
+					if(is_active_sidebar('sidebar-1')){
+						dynamic_sidebar('sidebar-1');
+						}
+					?>
 				</div>
 		</div>
 	</section>

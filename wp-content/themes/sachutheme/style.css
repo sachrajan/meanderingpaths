@@ -121,6 +121,15 @@ p.disclaimer{
   font-size:14px;
 }
 
+p.p1 p:first-child:first-letter {
+float:left;
+font-size:4em;
+color: #000099;
+margin-right:0.10em;
+line-height:90%;
+text-shadow: 0.05em 0.05em #C0C0C0;
+}
+
 /* FONT STYLING
 b. Header */
 
@@ -314,6 +323,14 @@ span.entry-date{
 }
 
 .feature-list-bottom{
+  border-style: dashed;
+  border-width: 0.5px;
+  padding: 2px;
+  text-decoration: none;
+  border-color: #88c69c;
+}
+
+.feature-list{
   border-style: dashed;
   border-width: 0.5px;
   padding: 2px;
@@ -615,7 +632,7 @@ img.thumb-panel{
   font-family:GreatVibes-Regular;
   color:#3a6766;
   font-size: 40px;
-  margin:50px 30px 10px 30px;
+  margin:50px 0px 0px 0px;
 }
 
 .blog-post-image{
@@ -639,8 +656,9 @@ img.thumb-panel{
 .figure-caption{
 margin:10px;
 text-align:center;
+font-size: smaller;
+font-family: Neuton-Regular;
 }
-
 
 .comments-submit{
   font-size:24px;
@@ -845,6 +863,13 @@ h2.widgettitle{
   padding:10 0 10 0;
 }
 
+h2#widgettitle{
+  font-size:20px;
+  font-family:Neuton-Regular;
+  color:#3a6766;
+  margin:10 0 10 0;
+  padding:10 0 10 0;
+}
 caption {
   padding-top: 8px;
   padding-bottom: 8px;
@@ -874,3 +899,6 @@ label {
   font-size:15px!important;
 }
 
+.tag-cloud-post{
+  font-size:11px!important;
+}

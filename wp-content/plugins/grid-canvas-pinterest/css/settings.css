@@ -1,0 +1,151 @@
+.gc-form-header-wrapper {
+  text-align: center;
+}
+.gc-form-header-wrapper h2 {
+  margin-bottom: 0;
+  font-size: 1.5em;
+}
+.gc-form-header-wrapper p {
+  color: #6f7276;
+}
+.gc-settings-box {
+  border-radius: 4px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border: 1px solid #e3e4e6;
+  padding: 30px;
+  padding-top: 40px;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+.gc-form-field {
+  margin-bottom: 10px;
+}
+.gc-header-logo {
+  width: 40px;
+  height: 50px;
+  margin: 7px auto 0 auto;
+  background: url("../app/images/logo-single.png") no-repeat center;
+  background-size: contain;
+  vertical-align: middle;
+}
+.gc-account-status {
+  color: #31375d;
+}
+.gc-form label {
+  display: block;
+  margin-bottom: 5px;
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.gc-form input[type=text],
+.gc-form input[type=password],
+.gc-form input[type=email] {
+  margin: 0 0 4px 0;
+  height: 37px;
+  border-radius: 4px;
+  padding: 5px 10px;
+  border-color: #d0d4d9;
+  width: 100%;
+  box-sizing: border-box;
+}
+.gc-form input[type=text]:focus,
+.gc-form input[type=password]:focus,
+.gc-form input[type=email]:focus {
+  outline: none;
+  border-color: #168fc7;
+  background: #fff;
+  box-shadow: 0 0 4px 0 rgba(22, 143, 199, 0.35);
+}
+.gc-submit,
+.gc-button {
+  background: #E61859;
+  color: #fff;
+  border-radius: 4px;
+  padding: 12px 30px;
+  font-size: 15px;
+  border: 1px solid #E61859;
+  outline: none;
+  line-height: 1em;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 20px;
+  transition: all .2s;
+}
+.gc-button:hover {
+  opacity: 0.9;
+}
+.gc-submit {
+  width: 100%;
+  -webkit-appearance: button;
+}
+.gc-manage-account {
+  margin-right: 15px;
+}
+.gc-refresh {
+  margin-bottom: 10px;
+  background: #31375d;
+  border: 1px solid #31375d;
+}
+.gc-use-another-account {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+.gc-submit:hover {
+  opacity: 0.9;
+}
+.gc-password-hidden {
+  visibility: hidden;
+  height: 0 !important;
+  padding: 0 !important;
+  margin: 0;
+}
+.gc-error,
+.gc-info-message {
+  color: #eb5c2c;
+  border: 1px solid  #eb5c2c;
+  padding: 7px 10px;
+  border-radius: 4px;
+  background: #fff9f7;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.gc-info-message {
+  color: #3cc76a;
+  border-color: #3cc76a;
+  background: #f2fff6;
+}
+.gc-loading {
+  background: url("../images/spin.gif");
+  width: 26px;
+  height: 26px;
+  background-size: cover;
+  float: right;
+  margin-top: 28px;
+  display: none;
+}
+.gc-form-switch-text {
+  color: #6f7276;
+}
+.gc-account-status h2 {
+  text-align: center;
+}
+.gc-status-label {
+  font-weight: bold;
+  margin-right: 7px;
+}
+.gc-account-fields {
+  width: 100%;
+  box-sizing: border-box;
+}
+.gc-account-fields th,
+.gc-account-fields td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #f1f1f1;
+}
