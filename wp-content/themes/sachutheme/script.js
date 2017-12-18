@@ -14,9 +14,18 @@ $(document).ready(function(){
         $(".menu-canada").hide();
         $(".menu-travel").show();
     });
-});
 
-$(document).ready(function(){
+    ///windowsize = $(window).width();
+    ///if (windowsize > 800) {
+    ///    $(".latest-preview").text($(".latest-preview").text().substr(0,100));
+ ///   }
+ ///   else if (windowsize > 600 && windowsize < 800) {
+ ///       $(".latest-preview").text($(".latest-preview").text().substr(0,500));
+ ///   }
+  ///  else {
+   ///     $(".latest-preview").text($(".latest-preview").text().substr(0,20));
+ ///   }
+
     $("#car-img-1").click(function(){
         $(".carousel-content1").show();
         document.querySelector(".active").classList.remove("active");
