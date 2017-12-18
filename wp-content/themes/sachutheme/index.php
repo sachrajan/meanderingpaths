@@ -40,7 +40,7 @@
 				<div class="post-title">Negativity and dealing with “negative people”</div>
 				<p class="latest-preview">A few months ago I hit rock bottom. I was fighting with my husband on a regular basis, I spent most of my time just sitting and watching tv or playing games, and I didn’t care to clean my apartment or eat well. The cause - my mother’s death - was a lone circumstance that snowballed every single ugliness under my skin and threatened to take down any good that lay in it's way...
 				</p>
-				<a class="btn link" href="/wordpress/negativity-and-dealing-with-negative-people/" role="button">Continue Reading...</a>
+				<a class="btn link" href="/negativity-and-dealing-with-negative-people/" role="button">Continue Reading...</a>
 			</div>
 			<div class="row carousel-content2" id="carousel-content2">
 				<a class="btn tag" href="/holidays" role="button">Holidays</a>
@@ -58,7 +58,7 @@
 					<br>
 					<br>
 				</p>
-				<a class="btn link" href="#" role="button">Continue Reading...</a>
+				<a class="btn link" href="/wordpress/coming-soon/" role="button">Continue Reading...</a>
 			</div>
 			<div class="row carousel-thumbnail">
 				<div class="col-md-4 col-xs-4">
@@ -82,7 +82,7 @@
 		<div class="col-lg-8 col-md-8 popular">	
 			<div class="row">
 				<div class="col-sm-6 col-xs-6 popular-posts">
-					<a href="/wordpress/negativity-and-dealing-with-negative-people/" class="popular-preview-mobile">
+					<a href="/negativity-and-dealing-with-negative-people/" class="popular-preview-mobile">
 					<img class="thumb-mobile img-responsive" id="thumb1" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/birds.jpg">
 					</a>
 					<img class="thumb img-responsive" id="thumb1" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/birds.jpg">
@@ -94,12 +94,12 @@
 					</div>
 				<div class="col-sm-6 col-xs-6 popular-posts">
 					<a href="/diy-christmas-ornaments-30/" class="popular-preview-mobile">
-					<img class="thumb-mobile img-responsive" id="thumb2" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/get-help-mental-health-therapy-grief-loss.jpg">
+					<img class="thumb-mobile img-responsive" id="thumb2" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/diy-christmas-ornaments-carousel-preview.jpg">
 					</a>
-					<img class="thumb img-responsive" id="thumb2" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/get-help-mental-health-therapy-grief-loss.jpg">
+					<img class="thumb img-responsive" id="thumb2" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/diy-christmas-ornaments-carousel-preview.jpg">
 						<a href="/diy-christmas-ornaments-30/" class="popular-preview">
 							<div class="middle">
-								<div class="post-prev">A couple months ago, I read an article in Slate magazine about approaching people when they’ve gone through loss.“Finally” I thought, “someone decided...
+								<div class="post-prev">Christmas decorating can be super stressful; it’s time consuming, takes out a lot of energy and if you’re on a tight budget, it can be really expensive....
 								</div>
 							</div>
 						</a>
@@ -107,15 +107,15 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-6 col-xs-6 popular-posts">
-					<a href="/wordpress/six-things-keep-mind-online-shopping/" class="popular-preview-mobile">
-					<img class="thumb-mobile img-responsive" id="thumb3" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/online-shopping-things-to-remember.jpg">
+					<a href="/wordpress/coming-soon/" class="popular-preview-mobile">
+					<img class="thumb-mobile img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/coming-soon-thumb.png">
 					</a>
-					<img class="thumb img-responsive" id="thumb3" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/online-shopping-things-to-remember.jpg">
-						<a href="/wordpress/six-things-keep-mind-online-shopping/" class="popular-preview">
-							<div class="middle">
-								<div class="post-prev">I have a love-hate relationship with online shopping. The list for the reasons why I hate it  isn’t all that long, but the content on my hate list sure trump the love list...</div>
-							</div>
-						</a>
+					<img class="thumb img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/coming-soon-thumb.png">
+					<a href="/wordpress/coming-soon/" class="popular-preview">
+						<div class="middle">
+						<div class="post-prev">Keep checking this space for a new post!</div>
+						</div>
+					</a>
 				</div>
 				<div class="col-sm-6 col-xs-6 popular-posts">
 					<a href="/wordpress/coming-soon/" class="popular-preview-mobile">
@@ -133,7 +133,7 @@
 		<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 about-panel">
 				<h3 class="text-center"> About Me</h3>
 				<img class="thumb-panel" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/saraswathi-meandering-paths-300x169.jpg"> <p class="panel-text-image">Hi, I’m Saraswathi! Welcome to Meandering Paths, your one stop for finding content that is relatable and genuine. </p>
-				<p>I started Meandering Paths about a year ago, when I was at my lowest point. I was living an unfulfilled life in a country that held me back in many ways and Meandering Paths was my salvation.<a class="btn link" href="/wordpress/about-me/" role="button">Read More</a></p>
+				<p>I started Meandering Paths about a year ago, when I was at my lowest point. I was living an unfulfilled life in a country that held me back in many ways and Meandering Paths was my salvation.<a class="btn link" href="/about-me/" role="button">Read More</a></p>
 		</div>
 	</div>
 </section>
