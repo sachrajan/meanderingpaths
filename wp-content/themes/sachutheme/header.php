@@ -5,7 +5,12 @@
 		<meta name="keywords" content="finance, home, love, life, family, india, indian, fashion, beauty">
 		<meta name="author" content="Saraswathi Arun">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
-		<meta name="p:domain_verify" content="06a0ec460635471e9812ffd5fe8a564f"/>
+		<meta name="p:domain_verify" content="b6ece367e8ea416dbed4690bf1fa5d8a"/>
+		<!-- Twitter Card data -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@meandering_path">
+	<meta name="twitter:title" content="<?php bloginfo('title'); ?>">
+ 	<!--Twitter Summary card images must be at least 120x120px<-->
 		
 		<title><?php bloginfo('title'); ?></title>
 

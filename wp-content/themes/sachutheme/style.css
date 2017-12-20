@@ -14,6 +14,15 @@ Text Domain: GooglyPuffs
 FONT STYLING 
 a. General*/
 
+@font-face {
+font-family: "Neuton-Regular";
+src: url("https://s3.us-east-2.amazonaws.com/meanderingpaths/css/fonts/Neuton-Regular.ttf") format ("truetype");
+font-family: "GreatVibes-Regular";
+src: url("https://s3.us-east-2.amazonaws.com/meanderingpaths/css/fonts/GreatVibes-Regular.ttf") format ("truetype");
+font-family: "Sacramento-Regular";
+src: url("https://s3.us-east-2.amazonaws.com/meanderingpaths/css/fonts/Sacramento-Regular.ttf") format ("truetype");
+}
+
 body {
   position: relative;
   z-index: 1;
