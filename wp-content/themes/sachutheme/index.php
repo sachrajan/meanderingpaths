@@ -21,7 +21,7 @@
 				       <img class ="post-image2" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/diy-christmas-ornaments-carousel.jpg">
 				      </div>
 				      <div class="item carousel-image" id="elem3">
-				       <img class ="post-image3" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/coming-soon-carousel-preview.png">
+				       <img class ="post-image3" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/carousel-preview-holiday-budgeting.jpg">
 				      </div>
 				    </div>
 				     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -49,16 +49,11 @@
 				<a class="btn link" href="/diy-christmas-ornaments-30/" role="button">Continue Reading...</a>
 			</div>
 			<div class="row carousel-content3" id="carousel-content3">
-				<a class="btn tag" href="/wordpress/lifestyle" role="button">Lifestyle</a>
-				<div class="post-title">I'm still working on getting some great content for you!</div>
-					<p class"latest-preview">
+				<a class="btn tag" href="/wordpress/holidays" role="button">Holidays</a>
+				<div class="post-title">Holiday Decorating on a Budget</div>
+					<p class"latest-preview">Growing up, I distinctly remember these family traditions my family had around the holidays. The fact that we grew up in a predominantly Hindu household didn’t serve as an impediment when it came to celebrating Christmas; we still had our quaint plastic Christmas tree lit up, there was a present exchange with the neighbours and my mom would always bake her amazing pound cake for us to munch on as we played with our new toys...</p>
 					<br>
-					<br>
-					In the meantime, please keep watching this space, enjoy my other blog posts, leave your thoughts, and follow me on social media to get updates when I post new content...
-					<br>
-					<br>
-				</p>
-				<a class="btn link" href="/wordpress/coming-soon/" role="button">Continue Reading...</a>
+				<a class="btn link" href="/holiday-decorating-budget/" role="button">Continue Reading...</a>
 			</div>
 			<div class="row carousel-thumbnail">
 				<div class="col-md-4 col-xs-4">
@@ -68,7 +63,7 @@
 					<img id="car-img-2" class="img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/diy-christmas-ornaments-carousel-preview.jpg">	
 				</div>
 				<div class="col-md-4 col-xs-4">
-					<img id="car-img-3" class="img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/coming-soon-carousel-preview.jpg">	
+					<img id="car-img-3" class="img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/carousel-thumb-holiday-budgeting.jpg">	
 				</div>
 			</div>
 		</div>
@@ -107,13 +102,13 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-6 col-xs-6 popular-posts">
-					<a href="/wordpress/coming-soon/" class="popular-preview-mobile">
-					<img class="thumb-mobile img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/coming-soon-thumb.png">
+					<a href="/holiday-decorating-budget/" class="popular-preview-mobile">
+					<img class="thumb-mobile img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/carousel-thumb-holiday-budgeting.jpg">
 					</a>
-					<img class="thumb img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/coming-soon-thumb.png">
-					<a href="/wordpress/coming-soon/" class="popular-preview">
+					<img class="thumb img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/carousel-thumb-holiday-budgeting.jpg">
+					<a href="/holiday-decorating-budget/" class="popular-preview">
 						<div class="middle">
-						<div class="post-prev">Keep checking this space for a new post!</div>
+						<div class="post-prev">Growing up, I distinctly remember these family traditions my family had around the holidays. The fact that we grew up in a predominantly Hindu household...</div>
 						</div>
 					</a>
 				</div>
