@@ -47,16 +47,16 @@
       			</button>
       			<div class="collapse navbar-collapse" id="myNavbar">
 	    			<ul class="nav navbar-nav">
-				      	<li><a href="/wordpress"> <i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-				      	<li><a href="/wordpress/travel/"> <i class="fa fa-plane" aria-hidden="true"></i> Travel</a></li>
+				      	<li><a href="/"> <i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+				      	<li><a href="/travel/"> <i class="fa fa-plane" aria-hidden="true"></i> Travel</a></li>
 				      	<li class="dropdown">
-				      		<a class "dropdown-toggle" data-toggle="dropdown" href="/wordpress/lifestyle"> <i class="fa fa-play-circle" aria-hidden="true"></i> Lifestyle</a>
+				      		<a class "dropdown-toggle" data-toggle="dropdown" href="/lifestyle/"> <i class="fa fa-play-circle" aria-hidden="true"></i> Lifestyle</a>
 				      		<ul class="dropdown-menu menu-wrap">
 						      	<li class="feature-list">
-						      		<a class ="feature-list-india" href="/wordpress/holidays/">Holidays</a>
+						      		<a class ="feature-list-india" href="/holidays/">Holidays</a>
 						      	</li>
 						      	<li class="feature-list">
-						      		<a class ="feature-list-india" href="/wordpress/personal-development/">Personal Development</a>
+						      		<a class ="feature-list-india" href="/personal-development/">Personal Development</a>
 						      	</li>
 						    </ul>
 						</li>
@@ -135,7 +135,7 @@
 								</div>
 	      					</ul>
 	    				</li> -->
-	      				<li><a href="/wordpress/about-me"><i class="fa fa-user-secret" aria-hidden="true"></i> About Me</a></li>
+	      				<li><a href="/about-me/"><i class="fa fa-user-secret" aria-hidden="true"></i> About Me</a></li>
 	    			</ul>
   				</div>
   			</div>
