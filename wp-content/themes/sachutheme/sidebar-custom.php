@@ -13,8 +13,8 @@
 					<p class="signup-sidebar"> Receive updates and news from Meandering Paths in your inbox today! I promise you, I won't spam you!</p>
 					<div class="form-group row" align="center"> 
 						<div class="col-md-12 col-sm-12 col-xs-12 email-signup-sidebar">
-		    				 <form action="/action_page.php">
-						        <input class="form-control signup-sidebar" placeholder="Enter your email address here" id="ex5" type="text">
+		    				 <form action="/action_page.php" method="POST">
+						        <input class="form-control signup-sidebar" placeholder="Enter your email address here" id="ex5" type="text" name="email">
 						        <input type="submit" class="signup-now-sidebar" value="Sign up now!">
 							</form>
 						</div>

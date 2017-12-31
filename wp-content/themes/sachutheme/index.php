@@ -18,7 +18,7 @@
 				        <img class ="post-image1" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/birds-original.jpg">
 				      </div>
 				      <div class="item carousel-image" id="elem2">
-				       <img class ="post-image2" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/diy-christmas-ornaments-carousel.jpg">
+				       <img class ="post-image2" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/target-slider-new-years-resolution.jpg">
 				      </div>
 				      <div class="item carousel-image" id="elem3">
 				       <img class ="post-image3" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/carousel-preview-holiday-budgeting.jpg">
@@ -43,10 +43,11 @@
 				<a class="btn link" href="/negativity-and-dealing-with-negative-people/" role="button">Continue Reading...</a>
 			</div>
 			<div class="row carousel-content2" id="carousel-content2">
-				<a class="btn tag" href="/holidays" role="button">Holidays</a>
-				<div class="post-title">Diy Christmas Ornaments under $30</div>
-				<p class="latest-preview"> Christmas decorating can be super stressful; it’s time consuming, takes out a lot of energy and if you’re on a tight budget, it can be really expensive. I finally figured out how to cut corners on decorating my tree, and I think it’s time to let you in on the “not a big secret” secret - DIY ornaments. DIY ornaments are personal, unique and each ornament comes with its own story...</p>	
-				<a class="btn link" href="/diy-christmas-ornaments-30/" role="button">Continue Reading...</a>
+				<a class="btn tag" href="/lifestyle/" role="button">Lifestyle</a>
+				<div class="post-title">A New Year - Resolutions and Goal Setting</div>
+				<p class="latest-preview">
+											It's that time of the year when people start listing New Years Resolutions. I for one, have a giant list of goals I am determined to see through next year. The most important one? I struggle with continuity. I always find myself digging around for motivation when it fails me after a brief burst of creativity. This flaw has tyrannized most of my projects, and has threatened a lot of my creative drive.I want to end it...</p>	
+				<a class="btn link" href="a-new-year-resolutions-goal-setting/" role="button">Continue Reading...</a>
 			</div>
 			<div class="row carousel-content3" id="carousel-content3">
 				<a class="btn tag" href="/wordpress/holidays" role="button">Holidays</a>
@@ -60,7 +61,7 @@
 					<img id="car-img-1" class="img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/birds.jpg">
 				</div>
 				<div class="col-md-4 col-xs-4">
-					<img id="car-img-2" class="img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/diy-christmas-ornaments-carousel-preview.jpg">	
+					<img id="car-img-2" class="img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/target-new-years-resolution-thumb.jpg">	
 				</div>
 				<div class="col-md-4 col-xs-4">
 					<img id="car-img-3" class="img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/carousel-thumb-holiday-budgeting.jpg">	
@@ -113,13 +114,13 @@
 					</a>
 				</div>
 				<div class="col-sm-6 col-xs-6 popular-posts">
-					<a href="/wordpress/coming-soon/" class="popular-preview-mobile">
-					<img class="thumb-mobile img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/coming-soon-thumb.png">
+					<a href="/a-new-year-resolutions-goal-setting/" class="popular-preview-mobile">
+					<img class="thumb-mobile img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/target-new-years-resolution-thumb.jpg">
 					</a>
-					<img class="thumb img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/coming-soon-thumb.png">
-					<a href="/wordpress/coming-soon/" class="popular-preview">
+					<img class="thumb img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/target-new-years-resolution-thumb.jpg">
+					<a href="/a-new-year-resolutions-goal-setting/" class="popular-preview">
 						<div class="middle">
-						<div class="post-prev">Keep checking this space for a new post!</div>
+						<div class="post-prev">It's that time of the year when people start listing New Years Resolutions. I for one, have a giant list of goals I am determined to see through next year... </div>
 						</div>
 					</a>
 				</div>

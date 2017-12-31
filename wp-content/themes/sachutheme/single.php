@@ -32,8 +32,8 @@
 						</div>
 					 	<div class="form-group row" align="center"> 
 							<div class="col-md-6 col-sm-6 col-xs-12 email-signup">
-						    	 <form action="/action_page.php">
-						        <input class="form-control signup" placeholder="Enter your email address here" id="ex5" type="text">
+						    	 <form action="/action_page.php" method="POST">
+						        <input class="form-control signup" placeholder="Enter your email address here" id="ex5" type="text" name="email">
 						        <input type="submit" class="signup-now" value="Sign up now!">
 								</form>
 							</div>
