@@ -9,12 +9,12 @@
 		<div class ="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 			<div class="row carousel slide" div id="myCarousel" data ride="carousel">
 				<ol class="carousel-indicators">
-			      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			      <li data-target="#myCarousel" data-slide-to="0"></li>
 			      <li data-target="#myCarousel" data-slide-to="1"></li>
 			      <li data-target="#myCarousel" data-slide-to="2"></li>
 			    </ol>
 				    <div class="carousel-inner">
-				      <div class="item active carousel-image" id="elem1">
+				      <div class="item carousel-image active" id="elem1">
 				        <img class ="post-image1" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/birds-original.jpg">
 				      </div>
 				      <div class="item carousel-image" id="elem2">
