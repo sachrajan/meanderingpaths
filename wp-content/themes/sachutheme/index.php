@@ -139,9 +139,9 @@
 				</div>
 				<div class="col-sm-6 col-xs-6 popular-posts">
 					<a href="#" class="popular-preview-mobile">
-					<img class="thumb-mobile img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/coming-soon-post.png">
+					<img class="thumb-mobile img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/coming-soon-post-homepage.png">
 					</a>
-					<img class="thumb img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/coming-soon-carousel-preview.jpg">
+					<img class="thumb img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/coming-soon-post-homepage.png">
 					<a href="#" class="popular-preview">
 						<div class="middle">
 						<div class="post-prev">
