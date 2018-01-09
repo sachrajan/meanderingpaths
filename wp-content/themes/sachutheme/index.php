@@ -47,14 +47,14 @@
 				<div class="post-title">A New Year - Resolutions and Goal Setting</div>
 				<p class="latest-preview">
 											It's that time of the year when people start listing New Years Resolutions. I for one, have a giant list of goals I am determined to see through next year. The most important one? I struggle with continuity. I always find myself digging around for motivation when it fails me after a brief burst of creativity. This flaw has tyrannized most of my projects, and has threatened a lot of my creative drive.I want to end it...</p>	
-				<a class="btn link" href="a-new-year-resolutions-goal-setting/" role="button">Continue Reading...</a>
+				<a class="btn link" href="/a-new-year-resolutions-goal-setting/" role="button">Continue Reading...</a>
 			</div>
 			<div class="row carousel-content3" id="carousel-content3">
 				<a class="btn tag" href="/wordpress/lifestyle" role="button">Lifestyle</a>
 				<div class="post-title">Beat the Holiday Blues With These Tips</div>
 					<p class"latest-preview">Ever felt like you no longer have a purpose to serve after the holiday season is over? My mother would often use the term ‘escapism’ to describe a condition wherein people neglect realistic struggles for a life filled with dream like elements. The holidays is the epitome of this surreal world we aim to be a part of. Today’s commercialization of the holidays provides an even steadier foundation to customize your dream state...</p>
 					<br>
-				<a class="btn link" href="/beat-the-holiday…-with-these-tips/" role="button">Continue Reading...</a>
+				<a class="btn link" href="/beat-the-holiday-blues-with-these-tips/" role="button">Continue Reading...</a>
 			</div>
 			<div class="row carousel-thumbnail">
 				<div class="col-md-4 col-xs-4">
@@ -127,11 +127,11 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-6 col-xs-6 popular-posts">
-					<a href="/beat-the-holiday…-with-these-tips/" class="popular-preview-mobile">
+					<a href="/beat-the-holiday-blues-with-these-tips/" class="popular-preview-mobile">
 					<img class="thumb-mobile img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/holiday-blues-post-image.jpg">
 					</a>
 					<img class="thumb img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/holiday-blues-post-image.jpg">
-					<a href="/beat-the-holiday…-with-these-tips/" class="popular-preview">
+					<a href="/beat-the-holiday-blues-with-these-tips/" class="popular-preview">
 						<div class="middle">
 						<div class="post-prev">Ever felt like you no longer have a purpose to serve after the holiday season is over? My mother would often use the term ‘escapism’ to describe a condition...</div>
 						</div>
