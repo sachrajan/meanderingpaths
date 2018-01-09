@@ -95,7 +95,7 @@ dynamic_sidebar('footer-sidebar-1');
 </div>
 </div>
 			<div class="container text-center">
-				<p>Copyright© 2016 www.meanderingpaths.com ALL RIGHTS RESERVED</p>
+				<p>Copyright© 2018 www.meanderingpaths.com ALL RIGHTS RESERVED</p>
 			</div>
 
 		</footer>
