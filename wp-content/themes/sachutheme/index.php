@@ -21,7 +21,7 @@
 				       <img class ="post-image2" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/target-slider-new-years-resolution.jpg">
 				      </div>
 				      <div class="item carousel-image" id="elem3">
-				       <img class ="post-image3" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/carousel-preview-holiday-budgeting.jpg">
+				       <img class ="post-image3" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/holiday-blues-carousel.jpg">
 				      </div>
 				    </div>
 				     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -50,11 +50,11 @@
 				<a class="btn link" href="a-new-year-resolutions-goal-setting/" role="button">Continue Reading...</a>
 			</div>
 			<div class="row carousel-content3" id="carousel-content3">
-				<a class="btn tag" href="/wordpress/holidays" role="button">Holidays</a>
-				<div class="post-title">Holiday Decorating on a Budget</div>
-					<p class"latest-preview">Growing up, I distinctly remember these family traditions my family had around the holidays. The fact that we grew up in a predominantly Hindu household didn’t serve as an impediment when it came to celebrating Christmas; we still had our quaint plastic Christmas tree lit up, there was a present exchange with the neighbours and my mom would always bake her amazing pound cake for us to munch on as we played with our new toys...</p>
+				<a class="btn tag" href="/wordpress/lifestyle" role="button">Lifestyle</a>
+				<div class="post-title">Beat the Holiday Blues With These Tips</div>
+					<p class"latest-preview">Ever felt like you no longer have a purpose to serve after the holiday season is over? My mother would often use the term ‘escapism’ to describe a condition wherein people neglect realistic struggles for a life filled with dream like elements. The holidays is the epitome of this surreal world we aim to be a part of. Today’s commercialization of the holidays provides an even steadier foundation to customize your dream state...</p>
 					<br>
-				<a class="btn link" href="/holiday-decorating-budget/" role="button">Continue Reading...</a>
+				<a class="btn link" href="/beat-the-holiday…-with-these-tips/" role="button">Continue Reading...</a>
 			</div>
 			<div class="row carousel-thumbnail">
 				<div class="col-md-4 col-xs-4">
@@ -64,7 +64,7 @@
 					<img id="car-img-2" class="img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/target-new-years-resolution-thumb.jpg">	
 				</div>
 				<div class="col-md-4 col-xs-4">
-					<img id="car-img-3" class="img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/carousel-thumb-holiday-budgeting.jpg">	
+					<img id="car-img-3" class="img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/holiday-blues-carousel-thumbnail.jpg">	
 				</div>
 			</div>
 		</div>
@@ -121,6 +121,32 @@
 					<a href="/a-new-year-resolutions-goal-setting/" class="popular-preview">
 						<div class="middle">
 						<div class="post-prev">It's that time of the year when people start listing New Years Resolutions. I for one, have a giant list of goals I am determined to see through next year... </div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 col-xs-6 popular-posts">
+					<a href="/beat-the-holiday…-with-these-tips/" class="popular-preview-mobile">
+					<img class="thumb-mobile img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/holiday-blues-post-image.jpg">
+					</a>
+					<img class="thumb img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/holiday-blues-post-image.jpg">
+					<a href="/beat-the-holiday…-with-these-tips/" class="popular-preview">
+						<div class="middle">
+						<div class="post-prev">Ever felt like you no longer have a purpose to serve after the holiday season is over? My mother would often use the term ‘escapism’ to describe a condition...</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-6 col-xs-6 popular-posts">
+					<a href="#" class="popular-preview-mobile">
+					<img class="thumb-mobile img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/coming-soon-post.png">
+					</a>
+					<img class="thumb img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/coming-soon-carousel-preview.jpg">
+					<a href="#" class="popular-preview">
+						<div class="middle">
+						<div class="post-prev">
+
+							Stay tuned for new content! Better yet, sign up for email updates! </div>
 						</div>
 					</a>
 				</div>

@@ -45,9 +45,7 @@
 				<div class="col-md-4 col-sm-4">
 					<?php get_sidebar ('custom'); ?>
 					<?php
-					if(is_active_sidebar('sidebar-1')){
 						dynamic_sidebar('sidebar-1');
-						}
 					?>
 				</div>
 		</div>
