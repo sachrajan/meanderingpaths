@@ -6,44 +6,212 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
   <loc>http://www.meanderingpaths.com/</loc>
-  <lastmod>2017-12-20T02:53:34+00:00</lastmod>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://www.meanderingpaths.com/travel/</loc>
-  <lastmod>2017-12-20T02:53:34+00:00</lastmod>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.meanderingpaths.com/lifestyle/</loc>
-  <lastmod>2017-12-20T02:53:34+00:00</lastmod>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.meanderingpaths.com/holidays/</loc>
-  <lastmod>2017-12-20T02:53:34+00:00</lastmod>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.meanderingpaths.com/personal-development/</loc>
-  <lastmod>2017-12-20T02:53:34+00:00</lastmod>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.meanderingpaths.com/about-me/</loc>
-  <lastmod>2017-12-20T02:53:34+00:00</lastmod>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/charm-character-ikea-furnished-home/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/beat-the-holiday-blues-with-these-tips/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.meanderingpaths.com/negativity-and-dealing-with-negative-people/</loc>
-  <lastmod>2017-12-20T02:53:34+00:00</lastmod>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.meanderingpaths.com/diy-christmas-ornaments-30/</loc>
-  <lastmod>2017-12-20T02:53:34+00:00</lastmod>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>http://www.meanderingpaths.com/holiday-decorating-budget/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/a-new-year-resolutions-goal-setting/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/affordable/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/boredom/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/budget/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/budgeting/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/christmas/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/decor/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/decorating/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/depression/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/diy/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/furnishing/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/goals/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/holiday-blues/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/holidays/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/ikea/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/interiors/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/lifestyle/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/motivation/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/negativity/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/new-year/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/ornaments/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/people/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/productivity/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/resolutions/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/seasonal-affective-disorder/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/setting-goals/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/smart-goals/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/tips/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/unmotivated/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.meanderingpaths.com/tag/winter/</loc>
+  <lastmod>2018-01-26T23:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
