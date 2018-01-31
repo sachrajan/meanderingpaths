@@ -3,7 +3,9 @@
 		<div class="container content-section">
 			<div class="col-md-8 col-sm-8 post-section">
 				<div class="blog-post-title"> <?php echo get_post(get_the_ID())->post_title; ?> </div>
-				<?php the_date(); ?> <span> | <span>   <?php $author = get_the_author(); ?> <?php
+				<?php the_date(); ?> <span> | <span>   <?php $author = get_the_author(); ?> 
+				<?php the_post_thumbnail(); ?>
+				<?php
 										//$posttags = get_the_tags();
 										//if ($posttags) {
  									  	//foreach($posttags as $tag) { 

@@ -39,6 +39,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			  ga('create', 'UA-85120670-1', 'auto');
 			  ga('send', 'pageview');
 		</script>
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+		  (adsbygoogle = window.adsbygoogle || []).push({
+		    google_ad_client: "ca-pub-3061134051031871",
+		    enable_page_level_ads: true
+		  });
+		</script>
 		<?php wp_head();?>
 	</head>
 	<body>
