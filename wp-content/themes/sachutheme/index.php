@@ -18,7 +18,7 @@
 				        <img class ="post-image1" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/ikea-logo-building-exterior-carousel.jpg">
 				      </div>
 				      <div class="item carousel-image" id="elem2">
-				       <img class ="post-image2" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/holiday-blues-carousel.jpg">
+				       <img class ="post-image2" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/post7/online-shopping-discount-carousel.jpg">
 				      </div>
 				      <div class="item carousel-image" id="elem3">
 				       <img class ="post-image3" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/birds-original.jpg">
@@ -45,9 +45,9 @@
 			</div>
 			<div class="row carousel-content2" id="carousel-content2">
 				<a class="btn tag" href="/lifestyle/" role="button">Lifestyle</a>
-				<div class="post-title">Beat the Holiday Blues With These Tips</div>
-				<p class="latest-preview">Ever felt like you no longer have a purpose to serve after the holiday season is over? My mother would often use the term ‘escapism’ to describe a condition wherein people neglect realistic struggles for a life filled with dream like elements. The holidays is the epitome of this surreal world we aim to be a part of. Today’s commercialization of the holidays provides an even steadier foundation to customize your dream state...</p>	
-				<a class="btn link" href="/beat-the-holiday-blues-with-these-tips/" role="button">Continue Reading...</a>
+				<div class="post-title">Six Things to Remember When Shopping Online</div>
+				<p class="latest-preview">It’s always that time of the year when you need to power on your laptop and buy something off the internet. It’s not like you can keep running to the shop for every single purchase - not with the ridiculous amount of traffic and work in a day. Major holidays, birthdays, and “I need boots” kind of days force us to to shift our focus from in store purchases to online shopping. No more waiting in queues that keep moving from one register to another (true story)...</p>	
+				<a class="btn link" href="/six-things-remember-when-shopping-online/" role="button">Continue Reading...</a>
 			</div>
 			<div class="row carousel-content3" id="carousel-content3">
 				<a class="btn tag" href="/lifestyle" role="button">Lifestyle</a>
@@ -61,7 +61,7 @@
 					<img id="car-img-1" class="img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/ikea-logo-building-exterior-thumbnail.jpg">
 				</div>
 				<div class="col-md-4 col-xs-4">
-					<img id="car-img-2" class="img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/holiday-blues-carousel-thumbnail.jpg">	
+					<img id="car-img-2" class="img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/post7/online-shopping-discount-thumbnail.jpg">	
 				</div>
 				<div class="col-md-4 col-xs-4">
 					<img id="car-img-3" class="img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/birds.jpg">	
@@ -148,7 +148,19 @@
 						</div>
 					</a>
 				</div>
-				<!--div class="col-sm-6 col-xs-6 popular-posts">
+				<div class="row">
+				<div class="col-sm-6 col-xs-6 popular-posts">
+					<a href="/six-things-remember-when-shopping-online/" class="popular-preview-mobile">
+					<img class="thumb-mobile img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/post7/online-shopping-discount-homepage-post-preview.jpg">
+					</a>
+					<img class="thumb img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/post7/online-shopping-discount-homepage-post-preview.jpg">
+					<a href="/six-things-remember-when-shopping-online/" class="popular-preview">
+						<div class="middle">
+						<div class="post-prev">It’s always that time of the year when you need to power on your laptop and buy something off the internet...</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-6 col-xs-6 popular-posts">
 					<a href="#" class="popular-preview-mobile">
 					<img class="thumb-mobile img-responsive" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/coming-soon-post-homepage.png">
 					</a>
@@ -160,7 +172,8 @@
 							Stay tuned for new content! Better yet, sign up for email updates! </div>
 						</div>
 					</a>
-				</div-->
+				</div>
+				</div>
 			</div>
 		</div>
 		<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 about-panel">
