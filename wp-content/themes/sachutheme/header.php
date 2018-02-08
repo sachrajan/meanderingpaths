@@ -70,6 +70,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				      	<li class="dropdown">
 				      		<a class "dropdown-toggle" data-toggle="dropdown" href="/lifestyle/"> <i class="fa fa-play-circle" aria-hidden="true"></i> Lifestyle</a>
 				      		<ul class="dropdown-menu menu-wrap">
+				      			<li class="feature-list">
+						      		<a class ="feature-list-india" href="/lifestyle/">Lifestyle</a>
+						      	</li>
 						      	<li class="feature-list">
 						      		<a class ="feature-list-india" href="/holidays/">Holidays</a>
 						      	</li>
