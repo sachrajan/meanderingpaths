@@ -3,14 +3,15 @@
 	$firstPost = get_post(get_the_ID())->post_content;
 ?>
 <div class="container">
+	<h3 class="sideheadings">Tag: <?php single_tag_title(); ?></h3>
 <?php
-$the_query = new WP_Query( 'tag='.$post_tag );
+$tagSlug = single_tag_title("", false);
+$the_query = new WP_Query( 'tag='.$tagSlug );
 
 if ( $the_query->have_posts() ) {
     while ( $the_query->have_posts() ) {
     	?>
     		<?php $the_query->the_post(); ?>
-			<h3 class="sideheadings">Tag: <?php single_tag_title(); ?></h3>
 				<div class="col-lg-8 col-md-8 col-sm-8">
 				 	<div class="row page-posts">
 				   		<div class="img-responsive preview-image col-lg-6 col-md-6 col-sm-6 col-xs-12">
