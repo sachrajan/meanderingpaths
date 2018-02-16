@@ -70,8 +70,47 @@
 		</div>
 	</div>
 	</div>
+<div class="container-carousel">
+	<div class="row">
+		<div class="col-md-12">
+			 <div class="carousel slide multi-item-carousel" id="theCarousel">
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="col-xs-4"><a href="#1"><img src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/poppy-3137588_1920.jpg" class="img-responsive" height="300" width="300"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4"><a href="#1"><img src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/diy-christmas-ornaments-carousel-preview.jpg" class="img-responsive" height="300" width="300"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4"><a href="#1"><img src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/diy-christmas-ornaments-carousel-preview.jpg" class="img-responsive" height="300" width="300"></a></div>
+          </div>
+      </div>
+      <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+        <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+    </div>
+</div>
+</div>
+			</div>
+		</div>
 </section>
-
+<section>
+	<div class="container">
+		<div class="container-slab-hp">
+				<div class="aboutme-img-container col-md-6 col-xs-12">
+					<div class="ext-img-container">
+					<img class="img-responsive about-me-img" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/birds.jpg">
+				</div>
+			</div>
+			<div class="aboutme-text-container col-md-6 col-xs-12">
+				<div class="ext-aboutme-container">
+					<h3> About Me </h3>
+				<p class="text-aboutme"> Hi, I’m Saraswathi! Welcome to Meandering Paths, your one stop for finding content that is relatable and genuine.
+				I started Meandering Paths about a year ago, when I was at my lowest point. I was living an unfulfilled life in a country that held me back in many ways and Meandering Paths was my salvation.</p>
+				<a class="btn tag" href="/lifestyle" role="button">Lifestyle</a>
+			</div>
+			</div>
+		</div>
+	</div>
 <section>
 	<div class="container">
 		<h3 class="popular-section-title"> Popular Posts</h3>

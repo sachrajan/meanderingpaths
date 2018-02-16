@@ -31,7 +31,7 @@ body:before {
 
 p{
   font-size:19px;
-  font-family: 'Neuton', serif;
+  font-family: 'Raleway', sans-serif;
   color:#2f4f4f;
 }
 
@@ -44,12 +44,12 @@ p.center-align{
 }
 ol{
   font-size:19px;
-  font-family: 'Neuton', serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 li{
   font-size:19px;
-  font-family: 'Neuton', serif;
+  font-family: 'Raleway', sans-serif;
   color:rgb(47, 79, 79);
 }
 
@@ -60,28 +60,28 @@ li<a{
 
 h4.sideheadings{
   color:#3a6766;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Cormorant Upright', serif;
   padding:20 0 0 0;
   font-size:x-large;
 }
 
 h3{
   color:#3a6766;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Cormorant Upright', serif;
   font-size: 35px!important;
   padding:20 0 0 0;
 }
 
 .popular-section-title{
    color:#3a6766;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Cormorant Upright', serif;
   font-size: 35px!important;
   padding:20 0 0 0;
 }
 
 h2{
   color:white;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Cormorant Upright', serif;
   font-size: 35px;
   margin:5px 0px;
   padding:5px 0px;
@@ -89,21 +89,18 @@ h2{
 
 h1.page-heading{
   color: #88c69c;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Cormorant Upright', serif;
   font-size: 60px;
   margin: 10px 0px;
   padding: 5px 0px;
   text-align: center;
   border-bottom: 6px double;
 }
-}
 
-h4{
-  font-family: 'Lustria', serif;
 }
 
 h4.signup{
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Cormorant Upright', serif;
   color: white;
   text-align: center;
   background-color: #88c69c;
@@ -114,7 +111,7 @@ h4.signup{
 }
 
 h4.signup-sidebar{
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Cormorant Upright', serif;
   color: white;
   text-align: center;
   background-color: #88c69c;
@@ -130,7 +127,7 @@ h1>.header-text{
 
 #subheading {
   text-decoration: underline !important;
-  font-family: 'Great Vibes', cursive !important;
+  font-family: 'Cormorant Upright', serif !important;
   font-size:25px;
   color: rgb(47, 79, 79);
 }
@@ -150,7 +147,7 @@ text-shadow: 0.05em 0.05em #C0C0C0;
 
 .post-title{
   color:#3a6766;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Cormorant Upright', serif;
   font-size: 35px;
   line-height:45px;
 }
@@ -239,10 +236,11 @@ span.entry-date{
 /* Navbar Defaults; Hover effects*/
 .navbar-default {
 	background-color: white;
-  margin:10px 0px 0px 0px;
   border-color:#f3ba00;
-  border-top-left-radius: 10px;
-  border-top-right-radius:10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-top:10px;
 }
 
 .navbar .navbar-nav {
@@ -588,7 +586,7 @@ span.entry-date{
 }
 .popular-preview{
    font-size:19px;
-  font-family: 'Neuton', serif;
+  font-family: 'Raleway', sans-serif;
   color:#2f4f4f;
 }
 
@@ -663,7 +661,7 @@ img.thumb-panel{
 /* POST PREVIEW SECTION - category, homepage */
 .category-post-preview{
  font-size:19px;
-  font-family: 'Neuton', serif;
+  font-family: 'Raleway', sans-serif;
   color:#2f4f4f;
 }
 
@@ -698,7 +696,7 @@ img.thumb-panel{
 
 /* BLOG POST PAGE */
 .blog-post-title{
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Cormorant Upright', serif;
   color:#3a6766;
   font-size: 40px;
   margin:50px 0px 0px 0px;
@@ -728,20 +726,20 @@ img.thumb-panel{
 .figure-caption{
 margin:10px;
 text-align:center;
-font-family: 'Neuton', serif;
+font-family: 'Raleway', sans-serif;
 }
 
 
 .comments-submit{
   font-size:24px;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Cormorant Upright', serif;
   color:#2f4f4f;
   font-weight:400;
 }
 
 .comment-submit{
   font-size:24px;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Cormorant Upright', serif;
   color:white;
   border-style: solid ;
   border-width: 1px;
@@ -777,7 +775,7 @@ a. Signup in sidebar
 .signup-now-sidebar{
   margin:10 0 0 0;
   font-size:24px;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Cormorant Upright', serif;
   color:white;
   border-style: solid ;
   border-width: 1px;
@@ -787,7 +785,7 @@ a. Signup in sidebar
 }
 
 .signup-sidebar{
-  font-family: 'Neuton', serif;
+  font-family: 'Raleway', sans-serif;
 }
 .signup-sidebar:focus{
   border-color:#5384a2;
@@ -805,7 +803,7 @@ a. Signup in sidebar
   .signup-now-sidebar{
     margin:10 0 0 0;
     font-size:24px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Cormorant Upright', serif;
     color:white;
     border-style: solid ;
     border-width: 1px;
@@ -857,7 +855,7 @@ b. Signup box bottom
 .signup-now{
   margin:10 0 0 0;
   font-size:24px;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Cormorant Upright', serif;
   color:white;
   border-style: solid ;
   border-width: 1px;
@@ -867,7 +865,7 @@ b. Signup box bottom
 }
 
 .signup{
-  font-family: 'Neuton', serif;
+  font-family: 'Raleway', sans-serif;
 }
 .signup:focus{
   border-color:#5384a2;
@@ -885,7 +883,7 @@ b. Signup box bottom
   .signup-now{
     margin:10 0 0 0;
     font-size:24px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Cormorant Upright', serif;
     color:white;
     border-style: solid ;
     border-width: 1px;
@@ -902,7 +900,7 @@ b. Signup box bottom
 /*Posts-Page*/
 .section-heading{
   font-size:40px;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Cormorant Upright', serif;
   color:#3a6766;
   padding: 15px;
 }
@@ -920,7 +918,7 @@ b. Signup box bottom
 
 .all-post-title {
   font-size:30px;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Cormorant Upright', serif;
   color:#3a6766;
   line-height: 40px;
 }
@@ -953,12 +951,12 @@ table#wp-calendar{
   border-width: 3px;
   font-size:20px;
   color:#3a6766;
-  font-family: 'Neuton', serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 h2.widgettitle{
   font-size:27px;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Cormorant Upright', serif;
   color:#3a6766;
   margin:10 0 10 0;
   padding:10 0 10 0;
@@ -966,7 +964,7 @@ h2.widgettitle{
 
 h2#widgettitle{
   font-size:20px;
-  font-family: 'Neuton', serif;
+  font-family: 'Raleway', sans-serif;
   color:#3a6766;
   margin:10 0 10 0;
   padding:10 0 10 0;
@@ -976,7 +974,7 @@ caption {
   padding-bottom: 8px;
   text-align: center;
   color: #3a6766;
-  font-family: 'Neuton', serif;
+  font-family: 'Raleway', sans-serif;
   }
 
 th{
@@ -993,7 +991,7 @@ label {
   max-width: 100%;
   margin: 5px;
   font-weight:100;
-  font-family: 'Neuton', serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .tag-cloud-link{
@@ -1022,7 +1020,7 @@ td {
 }
 .database-table{
   width: 100%;
-  font-family: 'Neuton', serif;
+  font-family: 'Raleway', sans-serif;
   font-size:20px;
 }
 .database-row-header{
@@ -1037,7 +1035,7 @@ td {
 
 .database-th{
   letter-spacing:0px !important;
-  font-family: 'Neuton', serif;
+  font-family: 'Raleway', sans-serif;
   font-size:21px;
   text-align: left;
   padding-left: 25px;
@@ -1051,4 +1049,82 @@ td {
   border:none;
   padding: 8px;
   padding-left: 25px;
+}
+
+.carousel-image{
+  height:673px;
+}
+
+.container-carousel{
+  margin: 10 30 10 30;
+}
+
+/*TESTNG*/
+.multi-item-carousel{
+  .carousel-inner{
+    > .item{
+      transition: 500ms ease-in-out left;
+    }
+    .active{
+      &.left{
+        left:-33%;
+      }
+      &.right{
+        left:33%;
+      }
+    }
+    .next{
+      left: 33%;
+    }
+    .prev{
+      left: -33%;
+    }
+    @media all and (transform-3d), (-webkit-transform-3d) {
+      > .item{
+        // use your favourite prefixer here
+        transition: 500ms ease-in-out left;
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none!important;
+      }
+    }
+  }
+  .carouse-control{
+    &.left, &.right{
+      background-image: none;
+    }
+  }
+}
+
+/*END TESTING CAROUSEL*/
+
+/*About Me Homepage */
+.text-aboutme{
+  text-align: center;
+  margin: 4em 0em 2em 0em;
+}
+
+.ext-img-container{
+  padding: 5em;
+  background-color: green;
+}
+
+.ext-aboutme-container{
+    background-color: orange;
+    padding: 0.9em;
+    text-align: center;
+}
+
+.container-slab-hp{
+
+}
+
+.aboutme-img-container{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.aboutme-text-container{
+  padding-right: 0;
+  padding-left: 0;
 }
