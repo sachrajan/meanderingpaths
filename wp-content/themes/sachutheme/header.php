@@ -8,7 +8,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-MFWQLCM');</script>
 <!-- End Google Tag Manager -->
 		<meta charset ="UTF-8">
-		<meta name="description" content="lifestyle blog for the average jane">
+		<meta name="description" content="">
 		<meta name="keywords" content="finance, home, love, life, family, india, indian, fashion, beauty">
 		<meta name="author" content="Saraswathi Arun">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
@@ -22,11 +22,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<title><?php bloginfo('title'); ?></title>
 
 		<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.css" rel="stylesheet">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Cormorant+Upright|Raleway|Sacramento|" rel="stylesheet">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Cormorant+Upright|Abhaya+Libre|Sacramento|" rel="stylesheet">
 	  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	  	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js"></script>
+	  	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
 
 		<link rel="stylesheet" type="text/css" media="all" href="<?php echo ($_SERVER[HTTP_HOST] == 'localhost:8888') ? get_template_directory_uri() . '/style.css' : 'https://s3.us-east-2.amazonaws.com/meanderingpaths/css/style.css'; ?>">
 		<!--link rel="stylesheet" type="text/css" media="all" href="https://s3.us-east-2.amazonaws.com/meanderingpaths/css/style.css"-->
@@ -68,7 +70,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				      	<li><a href="/"> <i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
 				      	<li><a href="/travel/"> <i class="fa fa-plane" aria-hidden="true"></i> Travel</a></li>
 				      	<li class="dropdown">
-				      		<a class "dropdown-toggle" data-toggle="dropdown" href="/lifestyle/"> <i class="fa fa-play-circle" aria-hidden="true"></i> Lifestyle</a>
+				      		<a class "dropdown-toggle" data-toggle="dropdown" href="#"> <i class="fa fa-play-circle" aria-hidden="true"></i> Lifestyle</a>
 				      		<ul class="dropdown-menu menu-wrap">
 				      			<li class="feature-list">
 						      		<a class ="feature-list-india" href="/lifestyle/">Lifestyle</a>

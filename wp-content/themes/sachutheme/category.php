@@ -3,10 +3,10 @@
 	$firstPost = get_post(get_the_ID())->post_content;
 ?>
 <div class="container">
-	<h3 class="sideheadings">Tag: <?php single_tag_title(); ?></h3>
+	<h3 class="sideheadings">Category: <?php single_cat_title(); ?></h3>
 <?php
-$tagSlug = single_tag_title("", false);
-$the_query = new WP_Query( 'tag='.$tagSlug );
+$tagSlug = single_cat_title("", false);
+$the_query = new WP_Query( 'category='.$tagSlug );
 
 if ( $the_query->have_posts() ) {
     while ( $the_query->have_posts() ) {

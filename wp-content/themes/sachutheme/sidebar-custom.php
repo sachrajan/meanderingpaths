@@ -4,7 +4,7 @@
 		<h3 class="text-center"> About Me</h3>
 		<p class><img class="thumb-panel" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/saraswathi-meandering-paths-300x169.jpg">
 			Hi, I’m Saraswathi! Welcome to Meandering Paths, your one stop for finding content that is relatable and genuine. </p>
-			<p>I started Meandering Paths about a year ago, when I was at my lowest point. I was living an unfulfilled life in a country that held me back in many ways and Meandering Paths was my salvation.<a class="btn link" href="/wordpress/about-me/" role="button">Read More</a></p>
+			<p>I started Meandering Paths about a year ago, when I was at my lowest point. I was living an unfulfilled life in a country that held me back in many ways and Meandering Paths was my salvation.<a class="btn link" href="/about-me/" role="button">Read More</a></p>
 	</div>
 	<div class="col-md-12 col-sm-12 col-xs-12 signup-container-sidebar">
 		<h4 class="signup-sidebar">Join my mailing list!</h4>
