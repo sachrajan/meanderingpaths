@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE HTML>
+<html lang="en">
 	<head>
 		<!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -18,8 +19,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<meta name="twitter:site" content="@meandering_path">
 	<meta name="twitter:title" content="<?php bloginfo('title'); ?>">
  	<!--Twitter Summary card images must be at least 120x120px<-->
-		
-		<title><?php bloginfo('title'); ?></title>
+
+		<title><?php echo empty(single_post_title()) ? "Meandering Paths Blog | Lifestyle | Travel | Self Help" : single_post_title() . " | " . bloginfo('title'); ?></title>
 
 		<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.css" rel="stylesheet">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

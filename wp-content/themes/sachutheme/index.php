@@ -9,6 +9,26 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="carousel slide" id="myCarousel">
                     <div class="carousel-inner">
+                    	 <div class="item">
+                          <div class="col-md-4 col-sm-4 col-xs-4 carousel-item"><a href="/resilience-dealing-failure/"><img src=" https://s3.us-east-2.amazonaws.com/meanderingpaths/images/carousel/man-climbing-mountain-resilience-homepage-carousel.jpg" class="img-responsive carousel-image"></a>
+                          <div class="carousel-preview carousel-textbox"> 
+                          		<a href="/personal-development/"><span class="tag"> Personal Development </span> </a>
+                          		<span class="misc"> / </span>
+                          		<span class="entry-date"> April 9, 2018</span> 
+                          		<div class="carousel-post-title"> <a class="carousel-post-title" href="/resilience-dealing-failure/"> Resilience and Dealing with Failure</a></div>
+                          	</div>
+                          </div>
+                        </div>
+                    	  <div class="item">
+                          <div class="col-md-4 col-sm-4 col-xs-4 carousel-item"><a href="/26-life-lessons-i-learned-in-26-years/"><img src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/carousel/26-things-monttremblant.jpg" class="img-responsive carousel-image"></a>
+                          <div class="carousel-preview carousel-textbox"> 
+                          		<a href="/personal-development/"><span class="tag"> Personal Development </span> </a>
+                          		<span class="misc"> / </span>
+                          		<span class="entry-date"> March 7, 2018</span> 
+                          		<div class="carousel-post-title"> <a class="carousel-post-title" href="/26-life-lessons-i-learned-in-26-years/"> 26 Life Lessons I Learned in 26 Years</a></div>
+                          	</div>
+                          </div>
+                        </div>
                         <div class="item">
                           <div class="col-md-4 col-sm-4 col-xs-4 carousel-item"><a href="/approach-dealing-grief-loss/"><img src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/carousel/grief-loss-candles.jpg" class="img-responsive carousel-image"></a>
                           	<div class="carousel-preview carousel-textbox"> 
@@ -39,16 +59,6 @@
                           	</div>
                           </div>
                         </div>
-                        <div class="item">
-                          <div class="col-md-4 col-sm-4 col-xs-4 carousel-item"><a href="/negativity-and-dealing-with-negative-people/"><img src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/carousel/birds-ignore-negativity.jpg" class="img-responsive carousel-image"></a>
-                          <div class="carousel-preview carousel-textbox"> 
-                          		<a href="/personal-development/"><span class="tag"> Personal Development </span></a>
-                          		<span class="misc"> / </span>
-                          		<span class="entry-date"> December 17, 2017</span>
-                          		<div class="carousel-post-title"> <a class="carousel-post-title" href="/negativity-and-dealing-with-negative-people/"> Negativity and Dealing with “Negative People”</a></div>
-                          	</div>
-                          </div>
-                        </div>
                          <div class="item">
                           <div class="col-md-4 col-sm-4 col-xs-4 carousel-item"><a href="/charm-character-ikea-furnished-home/"><img src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/carousel/IKEA-logo-building-exterior.jpg" class="img-responsive carousel-image"></a>
                           <div class="carousel-preview carousel-textbox">
@@ -60,16 +70,17 @@
                           </div>
                         </div>
                         <div class="item active">
-                          <div class="col-md-4 col-sm-4 col-xs-4 carousel-item"><a href="/26-life-lessons-i-learned-in-26-years/"><img src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/carousel/26-things-monttremblant.jpg" class="img-responsive carousel-image"></a>
+                          <div class="col-md-4 col-sm-4 col-xs-4 carousel-item"><a href="/disney-world-two-days-first-time/"><img src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/carousel/disney-magic-kingdom-fireworks-castle-carousel-homepage.jpg" class="img-responsive carousel-image"></a>
                           <div class="carousel-preview carousel-textbox"> 
-                          		<a href="/personal-development/"><span class="tag"> Personal Development </span> </a>
+                          		<a href="/travel/"><span class="tag"> Travel </span> </a>
                           		<span class="misc"> / </span>
-                          		<span class="entry-date"> March 7, 2018</span> 
-                          		<div class="carousel-post-title"> <a class="carousel-post-title" href="/26-life-lessons-i-learned-in-26-years/"> 26 Life Lessons I Learned in 26 Years</a></div>
+                          		<span class="entry-date"> May 22, 2018</span> 
+                          		<div class="carousel-post-title"> <a class="carousel-post-title" href="/disney-world-two-days-first-time/"> What You Need To Know When Visiting Disney World for Two Days For the First Time</a></div>
                           	</div>
                           </div>
                         </div>
                     </div>
+
                       <a class="left carousel-control" href="#myCarousel" data-slide="prev"><div></div><i class="glyphicon glyphicon-chevron-left"></i></a>
                       <a class="right carousel-control" href="#myCarousel" data-slide="next"><div></div><i class="glyphicon glyphicon-chevron-right"></i></a>
                 </div>
@@ -339,7 +350,7 @@ $('.carousel .item').each(function(){
 							<div class="col-md-6 col-sm-6 col-xs-12">
 								<div class="box-aboutme-left">
 									<div class="aboutme-hp-bg">
-									<img class="img-responsive aboutme-img" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/birds.jpg">
+									<img class="img-responsive aboutme-img" src="https://s3.us-east-2.amazonaws.com/meanderingpaths/images/profile-meanderingpaths-hp.jpg">
 									</div>
 								</div>
 							</div>
